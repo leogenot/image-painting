@@ -1,0 +1,32 @@
+@font-face {
+    font-family: syne;
+    font-weight: 900;
+    src: url(Syne-Extra.otf);
+}
+
+body {
+    font-family: syne;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 1.25;
+    background-color: #151616;
+    color: white;
+    cursor: none;
+    overflow: hidden;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    mix-blend-mode: difference;
+    text-align: center;
+}
+
+canvas {
+    vertical-align: bottom;
+}
